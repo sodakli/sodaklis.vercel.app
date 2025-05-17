@@ -1,0 +1,17 @@
+@tailwind utilities;
+
+body {
+    background: #0f0f0f;
+}
+
+::selection {
+    background-color: #8a0707;
+    color: #ffffff;
+}
+
+@font-face{
+    font-family: "Jacielle Olievera";
+    src: url('./Jacielle Olievera.ttf');
+    font-weight: 100%;
+    font-style: normal;
+}
