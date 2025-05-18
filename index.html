@@ -10,21 +10,24 @@
     <script src="https://kit.fontawesome.com/3324f0245a.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="/src/boar.png">
 </head>
-<body>
-    <header>
+<body class="font-mono">
+<div class="bg-size-[auto_60px] bg-[url(/src/bg_boar.png)]"> <!--placeholder for bg texture-->
 <div class="fixed w-screen justify-center flex">
-<img class="w-100 select-none"src="./src/signature (1).png" alt="signature" srcset="">
+<img class="w-100 select-none max-sm:hidden"src="./src/signature (1).png" alt="signature" srcset="">
 </div>
-    <div class="h-screen flex items-center justify-center pb-10">
+    <div class="h-screen flex items-center justify-center pb-10 shadow">
         <div>
         <img  class="relative w-80 sm:w-70 md:w-80 select-none" src="src/b68dfda4d6ff5bf3280ab5d473c768fc181b8650r1-500-500v2_hq.jpg.png" alt="Idate" srcset="">
-        <div class="text-white border rounded-md">
+        <div class=" bg-neutral-950 text-white border-stone-700 border-2 rounded-md">
             <div class="m-5">
-            <h1 class="text-5xl items-center justify-center">Hello, i'm <span class="bg-[#8a0707] italic">Soda</span></h1>
+            <h1 class="text-5xl items-center justify-center font-mono">Hello, i'm <span class="bg-[#8a0707] italic">Soda</span></h1>
             <h3 id="TextoBase" class="w-fit transition duration-200 ease-in-out hover:scale-105 italic">
                 Catholic Christian
              </h3>
-            <h2 class="underline">Brazillian, main language is <span class="hover:bg-[#8a0707]">Portuguese [pt-br]</span>, speaks both English [en] and Spanish [es] </h2>
+            <h2 class="underline font-mono font-bold">Brazillian, main language is <span class="hover:bg-[#8a0707]">Portuguese [pt-br]</span>, speaks both English [en] and Spanish [es] </h2>
+            <div class="!flex flex-row w-100 gap-5 pl-10">
+                <img class="w-6 "src="./src/flag.png" alt="flag_br"> <img class="w-6"src="./src/flag_us.png" alt="flag_usa"> <img class="w-6"src="./src/flag_es.png" alt="flag_es">
+            </div>
             <h2 class="pl-10">Things that i know: <br>
             HTML, CSS, Tailwind CSS, Basic LuaU, Basic JavaScript.</h2>
                 <img src="src/" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
@@ -52,7 +55,7 @@
     </div>  
 </div>
 </div>
-</header>
+</div>
 </body>
 
 </html>
