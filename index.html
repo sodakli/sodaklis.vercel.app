@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soda</title>
-    <link href="./src/output.css" rel="stylesheet">
-    <link rel="script" href="">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://kit.fontawesome.com/3324f0245a.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="/src/boar.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soda</title>
+  <link href="./src/output.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/3324f0245a.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="/src/boar.png">
 </head>
 <body class="font-mono">
-<div class="bg-size-[auto_60px] bg-[url(/src/bg_boar.png)]"> <!--placeholder for bg texture-->
-<div class="fixed w-screen justify-center flex">
-<img class="w-100 select-none max-sm:hidden"src="./src/signature (1).png" alt="signature" srcset="">
-</div>
-    <div class="h-screen flex items-center justify-center pb-10 shadow">
-        <div>
-        <img  class="relative w-80 sm:w-70 md:w-80 select-none" src="src/b68dfda4d6ff5bf3280ab5d473c768fc181b8650r1-500-500v2_hq.jpg.png" alt="Idate" srcset="">
-        <div class=" bg-neutral-950 text-white border-stone-700 border-2 rounded-md">
-            <div class="m-5">
-            <h1 class="text-5xl items-center justify-center font-mono">Hello, i'm <span class="bg-[#8a0707] italic">Soda</span></h1>
+  <div class="bg-size-[auto_60px] bg-[url(/src/bg_boar.png)]">
+    <div class="fixed w-full flex justify-center">
+      <img class="fixed w-85 select-none max-sm:hidden" src="./src/signature (1).png" alt="signature">
+    </div>
+
+    <div class="min-h-screen flex items-center justify-center pb-10 shadow">
+      <div>
+        <img class="relative w-40 sm:w-60 md:w-80 select-none" src="src/b68dfda4d6ff5bf3280ab5d473c768fc181b8650r1-500-500v2_hq.jpg.png" alt="Idate">
+        <div class="bg-neutral-950 text-white border-stone-700 border-2 rounded-md p-4 sm:p-6 max-w-screen-md">
+          <div class="m-3 sm:m-5">
+            <h1 class="text-3xl sm:text-4xl items-center justify-center font-mono">Hello, i'm <span class="bg-[#8a0707] italic">Soda</span></h1>
             <h3 id="TextoBase" class="w-fit transition duration-200 ease-in-out hover:scale-105 italic">
-                Catholic Christian
-             </h3>
-            <h2 class="underline font-mono font-bold">Brazillian, main language is <span class="hover:bg-[#8a0707]">Portuguese [pt-br]</span>, speaks both English [en] and Spanish [es] </h2>
-            <div class="!flex flex-row w-100 gap-5 pl-10">
-                <img class="w-6 "src="./src/flag.png" alt="flag_br"> <img class="w-6"src="./src/flag_us.png" alt="flag_usa"> <img class="w-6"src="./src/flag_es.png" alt="flag_es">
+              Catholic Christian
+            </h3>
+            <h2 class="underline font-mono font-bold text-sm sm:text-base">
+              Brazillian, main language is <span class="hover:bg-[#8a0707]">Portuguese [pt-br]</span>, speaks both <span></span>English [en] and Spanish [es]
+            </h2>
+            <div class="flex flex-row flex-wrap gap-3 sm:gap-5 pl-5 sm:pl-10 mt-2">
+              <img class="w-5 sm:w-6" src="./src/flag.png" alt="flag_br">
+              <img class="w-5 sm:w-6" src="./src/flag_us.png" alt="flag_usa">
+              <img class="w-5 sm:w-6" src="./src/flag_es.png" alt="flag_es">
             </div>
-            <h2 class="pl-10">Things that i know: <br>
-            HTML, CSS, Tailwind CSS, Basic LuaU, Basic JavaScript.</h2>
-                <img src="src/" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
-            <hr class="border-t border-white/10  mx-auto my-3 " />
-            <p class="wrap-break-word break-keep">Interested in Computer-Engineering,  I'm also into Game Development where I contributed to over 3,7M place visits on Roblox.
-                <br> Currently focusing on JavaScript and LuaU.
-                <br> <span class="bg-[#8a0707] italic">Future programming languages and frameworks I wish to learn: </span>
-                <br> > Assembly, C#, C++, ReactJS, Python.
-                <br> <span class="bg-[#8a0707] italic">Non-related computer things I also wish to learn:</span>
-                <br> > Architecture, Piano, Basic Astrophysics, Basic Aerodynamics, Communications.
+            <h2 class="pl-5 sm:pl-10 text-sm sm:text-base">Things that i know: <br>
+              HTML, CSS, Tailwind CSS, Basic LuaU, Basic JavaScript.
+            </h2>
 
+            <hr class="border-t border-white/10 mx-auto my-3" />
+
+            <p class="break-words text-sm sm:text-base">
+              Interested in Computer-Engineering, I'm also into Game Development where I contributed to over 3.7M place visits on Roblox.
+              <br> Currently focusing on JavaScript and LuaU.
+              <br> <span class="bg-[#8a0707] italic">Future programming languages and frameworks I wish to learn: </span>
+              <br> &gt; Assembly, C#, C++, ReactJS, Python.
+              <br> <span class="bg-[#8a0707] italic">Non-related computer things I also wish to learn:</span>
+              <br> &gt; Architecture, Piano, Basic Astrophysics, Basic Aerodynamics, Communications.
             </p>
-            <hr class="border-t border-white/10 w-1/2 mx-auto my-3 " />
-            <div class="">
-                <h1 class="flex flex-row items-center justify-center font-bold">Contact</h1>
-                <ul class="text-2xl flex flex-row items-center justify-center gap-10 m-5">
-                    
-                    <i class="fa-brands fa-discord"><li></li></i>
-                    <p class="text-sm">@sodaklis</p>
-                    <i class="fa-brands fa-github"><li></li></i>
-                    <p class="text-sm">sodakli</p>
-                </ul>
-            </div>
-        </div>
-    </div>  
-</div>
-</div>
-</div>
-</body>
 
+            <hr class="border-t border-white/10 w-1/2 mx-auto my-3" />
+
+            <div>
+              <h1 class="flex flex-row items-center justify-center font-bold">Contact</h1>
+              <ul class="text-xl sm:text-2xl flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-10 m-3 sm:m-5">
+                <li class="flex items-center gap-2">
+                  <i class="fa-brands fa-discord"></i>
+                  <p class="text-sm">@sodaklis</p>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i class="fa-brands fa-github"></i>
+                  <p class="text-sm">sodakli</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
